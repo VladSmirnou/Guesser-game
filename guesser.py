@@ -35,7 +35,7 @@ class Rand:
   def user(self):
     while True:
       try:
-        # terminates user input thread after given anoun of time
+        # terminates user input thread after given amount of time
         inp = inputimeout(prompt='Guess: ', timeout=2.95)
         if inp == 'q':
           print('Terminated')
